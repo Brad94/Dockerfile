@@ -1,0 +1,4 @@
+sudo apt-get -y install docker.io
+
+docker build -t hey . #Looks for Dockerfile in current directory, -t adds a tag to the image
+docker run -it hey
